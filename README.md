@@ -9,11 +9,11 @@ MovieInfo is a modern React app built with Vite and Tailwind CSS, featuring live
 
 ## 🚀 Features
 
-- 🔍 **Instant Movie Search** – Search thousands of movies from TMDB.
-- 📈 **Trending Analytics** – See what movies are trending based on user searches.
-- 🎞️ **Movie Details & Trailers** – View ratings, languages, release years, and official trailers.
-- ⚡ **Fast & Responsive** – Built with React 19, Vite, and Tailwind CSS for a smooth experience.
-- ☁️ **Appwrite Integration** – Tracks search analytics and trending movies.
+- 🔍 **Instant Movie Search** – Search thousands of movies from TMDB with live search functionality.
+- 📈 **Trending Movies Based on User Views and Searches** – Discover trending movies powered by user search analytics and views using the TMDB API.
+- 🎞️ **Comprehensive Movie Information Page** – View detailed movie information including ratings, languages, release years, and watch official trailers.
+- ⚡ **Fast & Responsive UI** – Built with React 19, Vite, and Tailwind CSS for a smooth and responsive user experience.
+- ☁️ **Appwrite Integration** – Tracks search analytics and trending movies to provide real-time insights.
 
 ---
 
@@ -30,6 +30,9 @@ MovieInfo is a modern React app built with Vite and Tailwind CSS, featuring live
 ![Home](public/second.png)
 ### Search Results
 ![Home](public/third.png)
+### Movie Info
+![Home](public/fourth.png)
+
 
 ---
 
