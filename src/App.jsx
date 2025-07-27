@@ -113,10 +113,12 @@ function App() {
       console.log(`Error Fetching movie video: ${error}`);
     }
   };
-
+  
   // close the movie info
   function close(){
+    setMovieTrailer("");
     setSelectedMovie(false);
+    setSelectedMovieData(movie)
   }
 
   return (
