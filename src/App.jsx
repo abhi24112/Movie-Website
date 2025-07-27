@@ -137,7 +137,7 @@ function App() {
           {/* Trending movies */}
           {trendingMovies.length > 0 && (
             <section className="trending">
-              <h2>Trending Movies</h2>
+              <h2>Recommendation For You</h2>
 
               <ul>
                 {trendingMovies.map((movie, index) => (
@@ -151,7 +151,7 @@ function App() {
           )}
 
           <section className="all-movies">
-            <h2 className="mt-[40px]">All Movies</h2>
+            <h2 className="mt-[40px]">Trending Movies</h2>
 
             {isLoading ? (
               <Spinner />
